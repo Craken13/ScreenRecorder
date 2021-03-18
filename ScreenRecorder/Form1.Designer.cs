@@ -177,6 +177,7 @@
             this.btnstop.Size = new System.Drawing.Size(81, 79);
             this.btnstop.TabIndex = 2;
             this.btnstop.UseVisualStyleBackColor = false;
+            this.btnstop.Click += new System.EventHandler(this.btnstop_Click);
             // 
             // Form1
             // 

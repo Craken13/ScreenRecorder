@@ -32,5 +32,10 @@ namespace ScreenRecorder
 
             videoCapture1.Start();
         }
+
+        private void btnstop_Click(object sender, EventArgs e)
+        {
+            videoCapture1.Stop();
+        }
     }
 }
